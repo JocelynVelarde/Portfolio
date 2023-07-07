@@ -2826,7 +2826,8 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-image: url("images/Project.jpg");
+				/*background-color: #6fc3df;*/
 			}
 
 			.tiles article:nth-child(6n - 4):before {
@@ -3495,8 +3496,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", en
 			}
 
 		#banner.style1:after {
-			background-image: url("../../images/Project.jpg");
-			/*background-color: #6fc3df;*/
+			background-color: #6fc3df;
 		}
 
 		#banner.style2:after {
