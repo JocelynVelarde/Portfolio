@@ -1,7 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2826,8 +2825,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-image: url("/.../images/Project.jpg");
-				/*background-color: #6fc3df;*/
+				background-color: #6fc3df;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
@@ -3376,16 +3374,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background: hsla(197, 100%, 63%, 1);
-
-background: linear-gradient(270deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-
-background: -moz-linear-gradient(270deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-
-background: -webkit-linear-gradient(270deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
-		/*background-image: url("../../images/banner.jpg");*/
+		background-image: url("../../images/banner.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3415,16 +3404,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", en
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background: hsla(197, 100%, 63%, 1);
-
-background: linear-gradient(270deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-
-background: -moz-linear-gradient(270deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-
-background: -webkit-linear-gradient(270deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
-			/*background-color: #242943;*/
+			background-color: #242943;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3603,15 +3583,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", en
 /* Main */
 
 	#main {
-		background: hsla(197, 100%, 63%, 1);
-	
-		background: linear-gradient(270deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-
-		background: -moz-linear-gradient(270deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-
-		background: -webkit-linear-gradient(270deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-
-		filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1);
+		background-color: #2a2f4a;
 	}
 
 		#main > * {
